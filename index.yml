@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=https://vscodeedu.com/schema/course-v2.schema.json
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: course1
 title: asd
 duration: 12
@@ -6,6 +6,7 @@ level: beginner
 description: asdasd
 objectives: asdasd
 prerequisites: asdasdasd
+cardImageUrl: https://ppe.vscodeedu.com/assets/course-cards/card6.png
 contacts:
   - displayName: Alex Britez
     pictureUrl: https://avatars.githubusercontent.com/u/57981398?v=4
