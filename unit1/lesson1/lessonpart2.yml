@@ -41,17 +41,3 @@ content: >-
 
   Using headers correctly helps with SEO and accessibility, as they provide
   structure to your content.
-questionGroups:
-  - questions:
-      - id: "1"
-        type: string
-        content: What is an the HTML Header?
-        options:
-          - id: "1"
-            value: h1
-            isCorrect: true
-          - id: "2"
-            value: H1
-            isCorrect: true
-          - id: "3"
-            value: This is an misconception
