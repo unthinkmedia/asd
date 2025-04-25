@@ -2,7 +2,50 @@
 id: lessonpart1
 title: Welcome to asd
 duration: 5
-content: |-
-  **Welcome to the course authoring!**
+content: >-
+  **Learning About CSS Selectors**
 
-  You can use Markdown to format your content. This an interesting update
+
+  CSS selectors are used to select and style HTML elements. Understanding how to
+  use them effectively is crucial for designing web pages. Here are some basic
+  types of CSS selectors:
+
+
+  - **Element Selector**: Selects all elements of a given type.  
+    Example: `p { color: blue; }` selects all `<p>` elements.
+
+  - **Class Selector**: Selects elements with a specific class attribute.  
+    Example: `.classname { font-size: 14px; }` selects all elements with `class="classname"`.
+
+  - **ID Selector**: Selects a single element with a specific ID.  
+    Example: `#unique { margin: 10px; }` selects the element with `id="unique"`.
+
+  - **Attribute Selector**: Selects elements based on an attribute or attribute
+  value.  
+    Example: `[type="text"] { border: 1px solid black; }` selects all `<input>` elements with `type="text"`.
+
+  - **Pseudo-class Selector**: Selects elements based on their state or
+  position.  
+    Example: `a:hover { color: red; }` changes the color of links when hovered over.
+
+  Understanding these selectors will help you apply styles to your web pages
+  more effectively.
+questionGroups:
+  - questions:
+      - id: "1"
+        type: mapping
+        content: How many sides are each polygon?
+        options:
+          - id: "1"
+            value: "3"
+            isCorrect: true
+          - id: "2"
+            value: "4"
+          - id: "3"
+            value: "5"
+          - id: "4"
+            value: "6"
+  - questions:
+      - id: "1"
+        type: reflection
+        content: What might you do with this?
