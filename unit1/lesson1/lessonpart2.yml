@@ -1,0 +1,57 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart2
+title: Other page
+content: >-
+  # Some Header
+
+
+  This is 
+
+
+  # Using Headers in HTML
+
+
+  HTML headers are used to define the headings of a webpage. They range from
+  `<h1>` to `<h6>`, with `<h1>` being the highest level and `<h6>` the lowest.
+  Here's a brief overview:
+
+
+  - `<h1>`: Main heading, used for the most important title.
+
+  - `<h2>`: Subheading, used for sections.
+
+  - `<h3>`: Sub-subheading, used for subsections.
+
+  - `<h4>` to `<h6>`: Used for further subdivisions.
+
+
+  Example usage in HTML:
+
+
+  ```html
+
+  <h1>Main Title</h1>
+
+  <h2>Section Title</h2>
+
+  <h3>Subsection Title</h3>
+
+  ```
+
+
+  Using headers correctly helps with SEO and accessibility, as they provide
+  structure to your content.
+questionGroups:
+  - questions:
+      - id: "1"
+        type: string
+        content: What is an the HTML Header?
+        options:
+          - id: "1"
+            value: h1
+            isCorrect: true
+          - id: "2"
+            value: H1
+            isCorrect: true
+          - id: "3"
+            value: This is an misconception
